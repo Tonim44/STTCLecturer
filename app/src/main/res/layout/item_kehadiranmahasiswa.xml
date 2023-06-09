@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="Nama Mahasiswa"
+            android:textColor="@color/DarkText"
+            android:textSize="15dp"
+            android:layout_marginLeft="25dp" />
+
+        <ImageView
+            android:id="@+id/edit"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="-20dp"
+            android:src="@drawable/edit"
+            android:layout_marginRight="25dp" />
+
+        <TextView
+            android:id="@+id/hadir"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/open_sans_semibold"
+            android:textColor="@color/DarkText"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tidak_hadir"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="@font/open_sans_semibold"
+            android:textColor="#F44336"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="id.ac.sttccirebon.lecture.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_sap"
+        android:name="id.ac.sttccirebon.lecture.ui.sap.SapFragment"
+        android:label="Satuan Acara Perkuliahan"
+        tools:layout="@layout/fragment_sap" />
+
+    <fragment
+        android:id="@+id/nav_riwayat"
+        android:name="id.ac.sttccirebon.lecture.ui.riwayat.RiwayatFragment"
+        android:label="Riwayat Mengajar"
+        tools:layout="@layout/fragment_sap" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="id.ac.sttccirebon.lecture.ui.logout.LogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="id.ac.sttccirebon.lecture.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
